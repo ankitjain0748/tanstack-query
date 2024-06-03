@@ -8,6 +8,8 @@ function ContactPage() {
   const [validation, setValidation] = useState({
     fullName: true,
     subject: true,
+
+    
     email: true,
     body: true,
   });
